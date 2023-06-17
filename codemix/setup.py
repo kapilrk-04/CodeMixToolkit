@@ -12,6 +12,11 @@ setup(
         'streamlit',
         'htbuilder',
         'IPython',
-        'st-annotated-text'
+        'st-annotated-text',
+        'pandas',
+        'stanza',
+        'indic-nlp-library',
+        'torch',
+        'transformers'
     ],
 )
