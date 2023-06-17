@@ -6,6 +6,9 @@ Install Instructions:
 2. Do pip install 'location of dist'
 3. You can import codemix in your code now
 
+### Recommended
+- Run the toolkit in an Anaconda environment.
+
 ## CODE-MIX GENERATOR - MODIFIED DOCKER IMAGE
 
 - This modified docker image contains API calls to utilise the aligner and codemix-generator functionalities in a simple manner.
