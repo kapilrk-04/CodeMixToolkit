@@ -1,0 +1,43 @@
+Token will not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: write).
+Your token has been saved to /home/prashantk/.cache/huggingface/token
+Login successful
+You are using the legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This means that tokens that come after special tokens will not be properly handled. We recommend you to read the related pull request available at https://github.com/huggingface/transformers/pull/24565
+/home/prashantk/miniconda3/envs/mt-model-train/lib/python3.11/site-packages/transformers/convert_slow_tokenizer.py:470: UserWarning: The sentencepiece tokenizer that you are converting to a fast tokenizer uses the byte fallback option which is not implemented in the fast tokenizers. In practice this means that the fast version of the tokenizer can produce unknown tokens whereas the sentencepiece version would have converted these unknown tokens into a sequence of byte tokens matching the original piece of text.
+  warnings.warn(
+Found cached dataset parquet (/scratch/prashantk/cache/kapilrk04___parquet/kapilrk04--codemix-en_enhi-8fa8773b3690eaa4/0.0.0/14a00e99c0d15a23649d0db8944380ac81082d4b021f398733dd84f3a6c569a7)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 60.96it/s]Cloning https://huggingface.co/kapilrk04/mt5_based_en_enhi_mt_model into local empty directory.
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+  1%|██                                                                                                                                                                      | 195/15673 [00:55<1:12:51,  3.54it  1%|▊                                                            | 196/15673 [00:55<1:13:38,  3.50it/s]                                                                                                          1%|▊                                                            | 214/15673 [01:01<1:14:46,  3.45i  1%|█▋                                                                               1%|██▏                  1  1%|█  1%|██▌                                                                                                                                                                     | 235/15673 [01:07<1:10:49,  3  2%|██▍                                                                                                                                                                   | 236/15673 [01:07<1:10:17,  3.66it/s]  2%|██▌    2%|██▊                                                                                                                                                                     | 268/15673 [01:16<1:26:13  2%|██▊                                                                                                                                                                   | 269/15673 [01:17<1:20:59,  3.17it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15673/15673 [1:14:00<00:00,  3.86it/s]wandb: Currently logged in as: kapilrk-04. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.15.8 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.7
+wandb: Run data is saved locally in /home/prashantk/mt-model-training-scripts/wandb/run-20230804_134216-8y6g796a
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run noble-sea-3
+wandb: ⭐️ View project at https://wandb.ai/kapilrk-04/huggingface
+wandb: 🚀 View run at https://wandb.ai/kapilrk-04/huggingface/runs/8y6g796a
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15673/15673 [1:14:27<00:00,  3.51it/s]
+wandb: Waiting for W&B process to finish... (success).
+wandb: | 0.025 MB of 0.025 MB uploaded (0.000 MB deduped)
+wandb: Run history:
+wandb:               eval/bleu ▁
+wandb:            eval/gen_len ▁
+wandb:               eval/loss ▁
+wandb:            eval/runtime ▁
+wandb: eval/samples_per_second ▁
+wandb:   eval/steps_per_second ▁
+wandb:       train/global_step ▁
+wandb:
+wandb: Run summary:
+wandb:               eval/bleu 0.0031
+wandb:            eval/gen_len 2.085
+wandb:               eval/loss 25.43909
+wandb:            eval/runtime 4452.1922
+wandb: eval/samples_per_second 28.161
+wandb:   eval/steps_per_second 3.52
+wandb:       train/global_step 0
+wandb:
+wandb: 🚀 View run noble-sea-3 at: https://wandb.ai/kapilrk-04/huggingface/runs/8y6g796a
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230804_134216-8y6g796a/logs
